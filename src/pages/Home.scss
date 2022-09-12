@@ -5,13 +5,13 @@
 }
 
 .home {
-    background: url('../../public/imgs/header-img.jpg');
+    background: url('/imgs/header-img.jpg');
     height: 100vh;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat; 
     @include for-phone {
-        background: url('../../public/imgs/header-img-mobile.png'); 
+        background: url('/imgs/header-img-mobile.png'); 
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat; 
